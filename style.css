@@ -1,0 +1,29 @@
+:root {
+  --software-home-button-height: 0rem;
+}
+#software-buttons-dead-space {
+  display: none;
+  pointer-events: none;
+}
+
+#software-home-ring {
+  outline-color: #FF4E00;
+}
+
+#software-home-button {
+  position: absolute;
+
+  top: auto;
+  right: auto;
+  bottom: 0.5rem;
+  left: calc(50% - var(--button-width) / 2);
+}
+
+@media (orientation: landscape) {
+  #software-home-button {
+    top: auto;
+    left: auto;
+    right: 0.5rem;
+    bottom: calc(50% - var(--button-width) / 2);
+  }
+}
