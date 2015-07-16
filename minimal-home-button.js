@@ -34,7 +34,6 @@ style.textContent = [
 '  }',
 '}'
 ].join('\n');
-style.id = 'always-fullscreen-button-style';
 
 function handleEvent(e) {
   var softwareHomeButton = document.getElementById('software-home-button');
