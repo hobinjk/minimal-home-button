@@ -1,5 +1,5 @@
 {
-  "name": "Always Fullscreen Home Button",
+  "name": "Minimal Home Button",
   "description": "Home buttons should be barely seen and never heard.",
   "developer": "hobinjk",
   "package_path": "package.zip",
@@ -8,7 +8,7 @@
   "customizations": [{
     "filter": "system.gaiamobile.org",
     "css": [],
-    "scripts": ["always-fullscreen.js"]
+    "scripts": ["minimal-home-button.js"]
   }]
 }
 
