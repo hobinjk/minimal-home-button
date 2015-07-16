@@ -5,6 +5,9 @@
   "package_path": "package.zip",
   "role": "addon",
   "type": "certified",
+  "icons": {
+    "128": "icons/128.png"
+  },
   "customizations": [{
     "filter": "system.gaiamobile.org",
     "css": [],
