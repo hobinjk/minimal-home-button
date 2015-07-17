@@ -40,7 +40,7 @@ function handleEvent(e) {
 
   switch (e.type) {
     case 'keyboardhide':
-      softwareHomeButton.style.visibility = 'visible';
+      softwareHomeButton.style.visibility = null;
       break;
     // Apparently secretly keyboardshow equivalent
     case 'keyboardchange':
