@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <meta name="defaultLanguage" content="en-US">
+
+  <title>Minimal Home Button</title>
+
+  <link rel="stylesheet" href="css/style/layout.css">
+  <link rel="stylesheet" href="css/style/input_areas.css">
+  <link rel="stylesheet" href="css/style/headers.css">
+  <link rel="stylesheet" href="css/style/switches.css">
+  <link rel="stylesheet" href="css/lists.css">
+  <link rel="stylesheet" href="css/settings.css">
+  <link rel="stylesheet" href="css/minimal-home-button.css">
+
+  <script src="minimal-home-button.js"></script>
+</head>
+<body class="skin-organic" role="application">
+  <section role="region">
+    <header>
+      <h1 style="font-size: 23px;">Minimal Home Button</h1>
+    </header>
+    <div>
+      <ul>
+        <li>
+          <label class="pack-switch">
+            <input id="swap-enabled" type="checkbox" disabled>
+            <span>
+              Swap Long and Short presses
+            </span>
+          </label>
+          <p class="explanation">
+            Make a short home button press open card view and a long press
+            return to homescreen
+          </p>
+        </li>
+        <li>
+          <label style="padding: 1rem 1.5rem;">
+            <span style="display: inline-block;">
+              Home Button Color
+            </span>
+            <div>
+              <input id="mhb-color" type="color" value="#FF4E00">
+            </div>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
