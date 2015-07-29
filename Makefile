@@ -1,2 +1,2 @@
 package:
-	zip package.zip always-fullscreen.js manifest.webapp -r icons
+	zip package.zip minimal-home-button.js manifest.webapp -r icons
