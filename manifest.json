@@ -1,0 +1,20 @@
+{
+  "name": "Minimal Home Button",
+  "description": "Home buttons should be barely seen and never heard.",
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "customizations": [
+    {
+      "matches": [
+        "system.gaiamobile.org"
+      ],
+      "css": [],
+      "js": [
+        "minimal-home-button.js"
+      ]
+    }
+  ],
+  "manifest_version": 2,
+  "author": "hobinjk"
+}

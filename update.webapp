@@ -1,0 +1,9 @@
+{
+  "name": "Minimal Home Button",
+  "description": "Home buttons should be barely seen and never heard.",
+  "developer": "hobinjk",
+  "package_path": "package.zip",
+  "icons": {
+    "128": "icons/128.png"
+  }
+}
